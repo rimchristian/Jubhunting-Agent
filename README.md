@@ -131,8 +131,24 @@ python jobhunting_assistant_FINAL.py
 HIGH PRIORITY MATCHES (5 jobs)
 
 1. Data Analyst at Coupang
-   📍 Seoul, South Korea
-   💼 Experience: 2-4 years
-   🎯 Match Score: 9/10
-   ✅ Your Python, SQL, and Looker Studio experience matches perfectly
+   - Seoul, South Korea
+   - Experience: 2-4 years
+   -  Match Score: 9/10
+   - Python, SQL, and Looker Studio experience matches perfectly
+
+### Resume Summary
+Bilingual data analyst with 2+ years of experience building automated 
+dashboards. Reduced manual reporting time by 30% through Looker Studio 
+automation. Analyzed 2,000+ mobile games using Python. Based in Seoul 
+with English/Korean fluency.
+
+### Interview Answer
+Q: "Tell me about a time you improved efficiency through automation."
+
+STAR Answer:
+- Situation: At Motov, team spent 10+ hours weekly on manual reporting
+- Task: Automate dashboards while maintaining accuracy
+- Action: Built Looker Studio dashboards, automated with Python
+- Result: 30% time reduction, dashboards used by executives
+
 
