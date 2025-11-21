@@ -80,22 +80,22 @@
 - Anthropic API key (Get one here)
 - (Optional) Serper API key (Get free 2,500 searches)
 
-## Quick Start
-# Clone the repository
+# Quick Start
+###  Clone the repository
 git clone https://github.com/YOUR-USERNAME/ai-jobhunting-assistant.git
 cd ai-jobhunting-assistant
 
-# Install dependencies
+### Install dependencies
 pip install anthropic
 pip install 'crewai[tools]'  # Only if using Serper
 
-# Set up environment variables
+### Set up environment variables
 export ANTHROPIC_API_KEY="your-key-here"
 export SERPER_API_KEY="your-key-here"  # Optional
 
-# Update your resume in the code
-# Edit CHRISTIAN_RESUME variable in jobhunting_assistant_FINAL.py
+### Update your resume in the code
+### Edit CHRISTIAN_RESUME variable in jobhunting_assistant_FINAL.py
 
-# Run it!
+### Run it!
 python jobhunting_assistant_FINAL.py
 
