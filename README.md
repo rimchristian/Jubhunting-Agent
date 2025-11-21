@@ -6,7 +6,6 @@
 
 - Overview
 - Features
-- Architecture
 - Installation
 - Usage
 - Output Examples
@@ -75,24 +74,28 @@
 - Seoul market optimization
 - Korean job site integration (사람인, 잡코리아)
 
-#  Architecture
-┌─────────────────────────────────────────────────────────────┐
-│                  AI JOBHUNTING ASSISTANT                    │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Input: Your Resume                                         │
-│           ↓                                                 │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │   AGENT 1    │  │   AGENT 2    │  │   AGENT 3    │    │
-│  │ Job Market   │→ │   Personal   │→ │   Resume     │    │
-│  │ Researcher   │  │   Profiler   │  │  Strategist  │    │
-│  └──────────────┘  └──────────────┘  └──────────────┘    │
-│         ↓                                       ↓          │
-│  ┌──────────────────────────────────────────────────────┐ │
-│  │        AGENT 4: Interview Coach                      │ │
-│  └──────────────────────────────────────────────────────┘ │
-│         ↓                                                  │
-│  Output: Job Matches + Resume Summaries + Interview Prep  │
-└─────────────────────────────────────────────────────────────┘
+# Installation
+- Prerequisites
+- Python 3.8 or higher
+- Anthropic API key (Get one here)
+- (Optional) Serper API key (Get free 2,500 searches)
 
+## Quick Start
+# Clone the repository
+git clone https://github.com/YOUR-USERNAME/ai-jobhunting-assistant.git
+cd ai-jobhunting-assistant
+
+# Install dependencies
+pip install anthropic
+pip install 'crewai[tools]'  # Only if using Serper
+
+# Set up environment variables
+export ANTHROPIC_API_KEY="your-key-here"
+export SERPER_API_KEY="your-key-here"  # Optional
+
+# Update your resume in the code
+# Edit CHRISTIAN_RESUME variable in jobhunting_assistant_FINAL.py
+
+# Run it!
+python jobhunting_assistant_FINAL.py
 
