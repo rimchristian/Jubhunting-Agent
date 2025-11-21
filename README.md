@@ -4,12 +4,12 @@
 
 # Table of Contents
 
-Overview
-Features
-Architecture
-Installation
-Usage
-Output Examples
-Cost Analysis
-Roadmap
-License
+- Overview
+- Features
+- Architecture
+- Installation
+- Usage
+- Output Examples
+- Cost Analysis
+- Roadmap
+- License
