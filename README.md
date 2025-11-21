@@ -99,3 +99,29 @@ export SERPER_API_KEY="your-key-here"  # Optional
 ### Run it!
 python jobhunting_assistant_FINAL.py
 
+# Usage
+
+## Run All 4 Agents
+- results = run_full_workflow()
+## Run Individual Agents
+### Get manual search keywords
+- keywords = get_search_keywords()
+
+### Search for jobs
+- jobs = run_agent_1()
+
+### Analyze your profile
+- profile = run_agent_2()
+
+### Generate resume summaries
+- resume = run_agent_3()
+
+### Prepare for interviews
+- interview = run_agent_4()
+
+## Display Results
+### Clean job match display
+- display_job_matches(jobs)
+
+### Extract URLs
+- urls = extract_job_urls(jobs)
