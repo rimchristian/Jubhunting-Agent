@@ -39,3 +39,60 @@
 3. 7 resume versions for different role types
 4. 10 interview answers ready to practice
 5. $0.15-0.20 per complete workflow
+
+# Features
+1. Agent 1: Job Market Researcher
+
+- Searches for jobs across 6 industries (Data, Research, Operations, Recruiting, Hospitality, Customer Success)
+- Supports both Korean and US markets
+- Match scoring (1-10) based on your actual skills
+- Priority categorization (High/Medium/Low)
+- Optional real-time web search via Serper API
+- Bonus: Generates 25+ manual search keywords for LinkedIn, 사람인, Indeed
+
+2. Agent 2: Personal Profiler
+- Analyzes your resume to identify top 5 transferable skills
+- Extracts 3 quantified achievements
+- Evaluates industry versatility
+- Provides career pathway recommendations
+- Articulates your unique value proposition
+
+3. Agent 3: Resume Strategist
+- Creates 7 customized resume summaries
+- ATS-optimized with relevant keywords
+- Highlights bilingual capabilities
+- 3-4 sentences per summary (copy-paste ready)
+
+4. Agent 4: Interview Coach
+- Generates 10 interview questions with STAR method answers
+- Uses YOUR actual experience in answers
+- Provides career narrative guidance
+- Addresses career transition concerns
+- Suggests smart questions to ask employers
+
+5. Bilingual Support
+- English and Korean job search keywords
+- Seoul market optimization
+- Korean job site integration (사람인, 잡코리아)
+
+#  Architecture
+┌─────────────────────────────────────────────────────────────┐
+│                  AI JOBHUNTING ASSISTANT                    │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  Input: Your Resume                                         │
+│           ↓                                                 │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
+│  │   AGENT 1    │  │   AGENT 2    │  │   AGENT 3    │    │
+│  │ Job Market   │→ │   Personal   │→ │   Resume     │    │
+│  │ Researcher   │  │   Profiler   │  │  Strategist  │    │
+│  └──────────────┘  └──────────────┘  └──────────────┘    │
+│         ↓                                       ↓          │
+│  ┌──────────────────────────────────────────────────────┐ │
+│  │        AGENT 4: Interview Coach                      │ │
+│  └──────────────────────────────────────────────────────┘ │
+│         ↓                                                  │
+│  Output: Job Matches + Resume Summaries + Interview Prep  │
+└─────────────────────────────────────────────────────────────┘
+
+
