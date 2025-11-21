@@ -125,3 +125,14 @@ python jobhunting_assistant_FINAL.py
 
 ### Extract URLs
 - urls = extract_job_urls(jobs)
+
+# Output Examples
+### Job Matches
+HIGH PRIORITY MATCHES (5 jobs)
+
+1. Data Analyst at Coupang
+   📍 Seoul, South Korea
+   💼 Experience: 2-4 years
+   🎯 Match Score: 9/10
+   ✅ Your Python, SQL, and Looker Studio experience matches perfectly
+
