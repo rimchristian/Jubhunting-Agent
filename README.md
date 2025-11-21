@@ -82,7 +82,7 @@
 
 # Quick Start
 ###  Clone the repository
-git clone https://github.com/YOUR-USERNAME/ai-jobhunting-assistant.git
+git clone https://github.com/christian-rim/Jubhunting-Agent.git
 cd ai-jobhunting-assistant
 
 ### Install dependencies
