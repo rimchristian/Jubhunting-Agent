@@ -1,6 +1,7 @@
 # Jubhunting-Agent
 
-### A multi-agent AI system that automates job searching, generates tailored resumes, and prepares interview answers using Claude Sonnet 4.5
+### Project Title
+Job Search Agent: AI-Powered Job Discovery & Application Assistant
 
 # Table of Contents
 
