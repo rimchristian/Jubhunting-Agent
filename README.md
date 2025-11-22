@@ -1,6 +1,6 @@
 # Jubhunting-Agent
 
-### Project Title
+# Project Title
 Job Search Agent: AI-Powered Job Discovery & Application Assistant
 
 # Table of Contents
@@ -15,14 +15,11 @@ Job Search Agent: AI-Powered Job Discovery & Application Assistant
 - License
 
 # Overview
-- AI Jobhunting Assistant is a multi-agent system that streamlines the job search process by leveraging Claude Sonnet 4.5 to provide personalized job matches, resume optimization, and interview preparation.
+A Python-based automation tool that streamlines the job search process by scraping listings from multiple platforms, filtering opportunities based on user criteria, and generating tailored resumes and cover letters using AI.
 
 ## The Problem
-- Job hunting is time-consuming and overwhelming:
-1. Searching across multiple job sites daily
-2. Tailoring resumes for different roles
-3. Preparing for diverse interview questions
-4. Tracking applications and opportunities
+Job searching is time-consuming and repetitive. Manually browsing multiple job boards, customizing applications, and tracking opportunities takes 10-15 hours per week, leading to burnout and missed opportunities.
+
 
 ## The Solution
 - A modular AI system with 4 specialized agents that:
@@ -31,6 +28,12 @@ Job Search Agent: AI-Powered Job Discovery & Application Assistant
 2. Analyzes your background and identifies strengths
 3. Generates tailored resume summaries for different roles
 4. Prepares interview Q&As using the STAR method
+
+## Technologies Used
+- Python (Beautiful Soup, Selenium)
+- Claude API
+- Pandas for data processing
+- GitHub for version control
 
 ## Impact
 
